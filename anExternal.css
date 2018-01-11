@@ -9,12 +9,26 @@ p {
 
 img {
 	float:right;
+	margin: 20px;
+	height: 50px;
+	width: 50px;
 }
 
 #rcorners2 {
 	border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px dotted black;
     padding: 20px; 
     width: 500px;
     height: 150px; 
+}
+
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+
 }
