@@ -7,9 +7,13 @@ p {
     margin-left: 20px;
 } 
 
-img {
+#floaty {
 	float:right;
 	margin: 20px;
+
+}
+
+#small {
 	height: 50px;
 	width: 50px;
 }
